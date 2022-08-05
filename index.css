@@ -1,7 +1,10 @@
 
-* {
-    background-color: rgb(167, 164, 184);
-}
+body{
+    background: #d9a7c7;  
+    background: -webkit-linear-gradient(to bottom, #fffcdc, #d9a7c7);  
+    background: linear-gradient(to bottom, #fffcdc, #d9a7c7); 
+    
+   }
 
 .encabezado{
     display: flex;
@@ -26,10 +29,70 @@
     margin-right: 25px; 
 }
  
-img {
+.imglogo {
     height: 80px;
     width: 250px;
     justify-content: flex-start;
+   
+    
+}
+.contenedorSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    height: 88vh;
+  
+}
+
+.imagenDePortada{
+    width: 30%;
+    min-width: 300px;
+    box-shadow: 6px -2px 26px -1px rgba(46,14,46,1);
+}
+.conteinerPortada{
+    width: 30%;
+}
+
+h2{
+    color: #3A2449;
+    font-family: 'Edu VIC WA NT Beginner';
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+.conteinerPortada p{ 
+   
+    font-size: 1.8em;
+    font-family: 'Edu VIC WA NT Beginner';
+
+    
+}
+
+.contenedorinfor{
+    width: 80%;
+    padding: 10px;
+   margin-left: 120px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   background-color: #d9a7c7;
+   
+  
+
+   
+}
+
+p{
+    font-size: 1.5em;
+    font-family: 'Edu VIC WA NT Beginner';
    
     
 }
