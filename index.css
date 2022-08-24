@@ -1,11 +1,7 @@
-
-body{
-    background: #d9a7c7;  
-    background: -webkit-linear-gradient(to bottom, #fffcdc, #d9a7c7);  
-    background: linear-gradient(to bottom, #fffcdc, #d9a7c7); 
-    
-   }
-
+*{
+    margin: 0;
+    padding: 0;
+}
 .encabezado{
     display: flex;
     justify-content: space-around;
@@ -44,30 +40,32 @@ body{
     flex-wrap: wrap;
     gap: 80px;
     height: 88vh;
+    background-color: #4e4545;
   
 }
 
 .imagenDePortada{
     width: 30%;
     min-width: 300px;
-    box-shadow: 6px -2px 26px -1px rgba(46,14,46,1);
+    box-shadow: 6px -2px 26px -1px rgb(163, 144, 144);
+    border-radius: 10px;
 }
 .conteinerPortada{
     width: 30%;
 }
 
-h2{
-    color: #3A2449;
+.conteinerPortada h2{
+    color: #e3d7eb;
     font-family: 'Edu VIC WA NT Beginner';
-    font-weight: 600;
-    font-size: 30px;
-    text-align: center;
+    font-size: 2em;
+    font-weight: 800;
+    text-align: left;
 }
 
 
 
 .conteinerPortada p{ 
-   
+    color: #6a686b;
     font-size: 1.8em;
     font-family: 'Edu VIC WA NT Beginner';
 
@@ -75,24 +73,53 @@ h2{
 }
 
 .contenedorinfor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 80%;
-    padding: 10px;
-   margin-left: 120px;
-   text-align: center;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-wrap: wrap;
-   background-color: #d9a7c7;
-   
-  
-
+    margin-left: 120px;
+    text-align: center;
    
 }
-
 p{
+    padding: 10px;
     font-size: 1.5em;
     font-family: 'Edu VIC WA NT Beginner';
    
+}
+.card-title{
+    font-family: 'Edu VIC WA NT Beginner';
+    font-weight: 700;
+}
+.tituloDeSec{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.footer{
+    background-color: #3D3D3D;
+color: #fff; 
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+padding: 20px;
+}
+
+.infoDeFooter1{
+    font-size: 20px;
     
+}
+.infoDeFooter2{
+    font-size: 15px;
+}
+
+.iconored{
+width: 70px;
+height: 70px;
+
 }
